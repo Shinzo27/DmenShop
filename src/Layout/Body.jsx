@@ -1,9 +1,10 @@
 import React from 'react'
+import SearchBar from '../Components/SearchBar'
 
 const Body = () => {
   return (
     <div>
-      <h1>Body</h1>
+      <SearchBar/>
     </div>
   )
 }

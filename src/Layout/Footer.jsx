@@ -1,10 +1,11 @@
 import React from 'react'
+import Outro from '../Components/Outro'
 
 const Footer = () => {
   return (
-    <div>
-      <h1>Footer</h1>
-    </div>
+    <>
+        <Outro/> 
+    </>
   )
 }
 

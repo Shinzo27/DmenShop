@@ -1,9 +1,10 @@
-import React from "react";
+import React from 'react'
 import "../App.css";
 import { CiShoppingBasket } from "react-icons/ci";            
 import { FaGithub } from "react-icons/fa";
 
-const Header = () => {
+
+const Navbar = () => {
   return (
     <div className="p-6 border border-grayshade-300 bg-grayshade-500 w-full flex flex-wrap items-center justify-between mx-auto">
       <div className="w-full flex items-center justify-between">
@@ -23,7 +24,7 @@ const Header = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Header;
+export default Navbar

@@ -1,16 +1,16 @@
 import './App.css'
-import Body from './Components/Body'
-import Footer from './Components/Footer'
-import Header from './Components/Header'
+import Header from './Layout/Header'
+import Body from './Layout/Body'
+import Footer from './Layout/Footer'
 
 function App() {
 
   return (
-    <div className='min-h-screen bg-grayshade-500 '>
+    <>
       <Header/>
       <Body/>
       <Footer/>
-    </div>
+    </>
   )
 }
 
