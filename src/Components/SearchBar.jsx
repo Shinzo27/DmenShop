@@ -8,7 +8,7 @@ const SearchBar = () => {
             <div className="relative my-10 pl-3">
                 <div className="absolute z-2 cursor-pointer inset-y-0 start-0 flex items-center ps-3">
                 <CiSearch
-                    className="m-2 bg-purpleshade-400 p-1 w-7 h-7 text-white rounded-lg "
+                    className="m-2 bg-purpleshade-400 p-1 w-7 h-7 text-white rounded-lg"
                 />
                 </div>
                 <input

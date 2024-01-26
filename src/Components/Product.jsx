@@ -8,7 +8,7 @@ const Product = (props) => {
         </div>
         <div className="p-5">
             <a href="#">
-                <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">{props.name}</h5>
+                <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">{props.title}</h5>
             </a>
             <p className="mb-4 text-sm text-gray-400 min-h-40">{props.description}</p>
             <div className='flex justify-between items-center'>
