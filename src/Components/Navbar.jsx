@@ -18,8 +18,8 @@ const Navbar = () => {
               3
             </span>
           </div>
-          <div className="lg:mx-6 md:mx-4 mx-3">
-            <FaGithub className="text-4xl text-white bg-grayshade-400 border border-grayshade-200 p-1 rounded-md" />
+          <div className="lg:mx-6 md:mx-4 mx-3" href='www.github.com/Shinzo27'>
+            <FaGithub className="text-4xl text-white bg-grayshade-400 border border-grayshade-200 p-1 rounded-md"/>
           </div>
         </div>
       </div>
