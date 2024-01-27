@@ -2,6 +2,7 @@ import React from 'react'
 import "../App.css";
 import { CiShoppingBasket } from "react-icons/ci";            
 import { FaGithub } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 
 const Navbar = () => {
@@ -11,6 +12,17 @@ const Navbar = () => {
         <h1 className="lg:text-5xl md:text-4xl text-white text-xl font-semibold">
           Dmen's Fashion
         </h1>
+        <ul className='flex gap-10'>
+          <Link to='/'>
+            <li className=' hover:text-grayshade-50 cursor-pointer'>Home</li>
+          </Link>
+          <Link to='/aboutus'>
+            <li className=' hover:text-grayshade-50 cursor-pointer'>About Us</li>
+          </Link>
+          <Link to='/profile'>
+            <li className=' hover:text-grayshade-50 cursor-pointer'>Profile</li>
+          </Link>
+        </ul>
         <div className="flex justify-center items-center">
           <div className="relative lg:mx-6 md:mx-4 mx-3" to={"/checkout"}>
             <CiShoppingBasket className="text-4xl text-white bg-grayshade-400 border border-grayshade-200 p-1 rounded-md" />
